@@ -1,0 +1,120 @@
+##Starting NFs
+	national_focus=
+	{
+"1"="colonize"
+"2"="colonize"
+	}
+	colonize=
+	{
+		1=2631
+		2=2599
+	}
+
+
+army = {
+	name = "Army of North Alaska"
+	location = 5
+	regiment = {
+		name= "Guys in Blue"
+		type = infantry
+		home = 5
+	}
+
+	regiment = {
+		name= "Blue Soldiers of Alaska"
+		type = infantry
+		home = 5
+	}
+
+	regiment = {
+		name= "City Guards"
+		type = infantry
+		home = 1
+	}
+
+}
+
+army = {
+	name = "Army of Capital"
+	location = 1
+	regiment = {
+		name= "1st Regiment of Infantry"
+		type = infantry
+		home = 1
+	}
+
+	regiment = {
+		name= "2nd Regiment of Infantry"
+		type = infantry
+		home = 1
+	}
+
+	regiment = {
+		name= "3rd Regiment of Infantry"
+		type = infantry
+		home = 1
+	}
+
+	regiment = {
+		name= "1st Regiment of Artillery"
+		type = artillery
+		home = 1
+	}
+
+}
+
+
+navy = {
+	name = "Squadron of the Capital"
+	location = 1
+	ship = {
+		name= "Tersgaurd"
+		type = manowar
+	}
+
+	ship = {
+		name= "Versgaurd"
+		type = manowar
+	}
+
+	ship = {
+		name= "Varsonver"
+		type = manowar
+	}
+
+	ship = {
+		name= "Oniya"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "1st Squadron"
+	location = 5
+	ship = {
+		name= "Jedio"
+		type = manowar
+	}
+
+	ship = {
+		name= "FSS Alaska"
+		type = manowar
+	}
+
+	ship = {
+		name= "FSS Catshire"
+		type = manowar
+	}
+
+	ship = {
+		name= "FSS Imperator"
+		type = manowar
+	}
+
+	ship = {
+		name= "Guryand"
+		type = clipper_transport
+	}
+
+}
